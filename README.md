@@ -6,7 +6,7 @@ This project integrates **Apache Kafka** for streaming user activity and **Apach
 ---
 
 ## 📂 Project Structure
-
+```
 anime-recommendation/
 |__ model/
 |   |_ anime_model.h5  # Pretrained deep learning recommendation model
@@ -20,7 +20,7 @@ anime-recommendation/
 |__ data/
 |   |_ animelist.csv  # Source interaction dataset
 |__ requirements.txt  # Python dependencies
-
+```
 
 ---
 
