@@ -8,25 +8,18 @@ This project integrates **Apache Kafka** for streaming user activity and **Apach
 ## 📂 Project Structure
 
 anime-recommendation/
-│
-├── model/
-│   └── anime_model.h5                # Pretrained deep learning recommendation model
-|   |__traininer-notebook-anime-recommendation-system.ipynb
-│
-├── encoders/
-│   ├── user_encoder.pkl              # LabelEncoder for user IDs
-│   └── anime_encoder.pkl             # LabelEncoder for anime IDs
-│
-├── producer/
-│   └── kafka_producer.py            # Kafka script to simulate user activity
-│
-├── consumer/
-│   └── spark_consumer.py            # Spark streaming job to predict ratings
-│
-├── data/
-│   └── animelist.csv                # Source interaction dataset
-│
-├── requirements.txt                 # Python dependencies
+|__ model/
+|   |_ anime_model.h5  # Pretrained deep learning recommendation model
+|__ encoders/
+|   |_ user_encoder.pkl  # LabelEncoder for user IDs
+|   |_ anime_encoder.pkl  # LabelEncoder for anime IDs
+|__ producer/
+|   |_ kafka_producer.py  # Kafka script to simulate user activity
+|__ consumer/
+|   |_ spark_consumer.py  # Spark streaming job to predict ratings
+|__ data/
+|   |_ animelist.csv  # Source interaction dataset
+|__ requirements.txt  # Python dependencies
 
 
 ---
